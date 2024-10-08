@@ -1,4 +1,4 @@
-export default function setFromArray() {
-  const newSet = new Set();
-  return newSet;
+export default function setFromArray(inputArray) {
+  const newset = new Set(inputArray);
+  return newset;
 }
